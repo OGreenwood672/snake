@@ -21,3 +21,8 @@ If you wish to see a graph of the ai's progress, press return during the genetic
 ![snake_main_menu](https://user-images.githubusercontent.com/22611951/130637136-10b3fa6b-2824-4a60-bedf-54d96afb0e3f.png)
 
 ![image](https://user-images.githubusercontent.com/22611951/130637457-4c73cf36-ea03-4679-9ef3-88cdcb94c77f.png)
+
+
+# Contribution
+Not looking for any contribution as this is no longer being worked on.
+However, if you wish to add a virtual env or comment the code (for some reason), feel free to make a pull request.
