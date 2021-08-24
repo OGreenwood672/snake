@@ -7,7 +7,7 @@ The project is the game snake and also a genetic algorithm which creates a snake
 
 To install:
 
-`git clone git@github.com:OGreenwood672/snake.git`
+`git clone git@github.com:OGreenwood672/snake.git`\n
 `pip3 install pygame neat-python matplotlib`
 `python3 main.py`
 
