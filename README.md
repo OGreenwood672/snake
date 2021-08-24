@@ -9,6 +9,8 @@ To install:
 
 `git clone git@github.com:OGreenwood672/snake.git`
 
+`cd snake`
+
 `pip3 install pygame neat-python matplotlib`
 
 `python3 main.py`
