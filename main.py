@@ -1,12 +1,12 @@
 import pygame
-import random
-import datetime
-import time
+# import random
+# import datetime
+# import time
 import pygame.locals
 import os
 import neat
 import matplotlib.pyplot as plt
-import pickle
+# import pickle
 
 import snakeObject
 import fruitObject
@@ -90,7 +90,7 @@ def checkPressHP():
             singlePlayer()
         elif buttony and buttonx_2:
             runGA()
-    keyinput = pygame.key.get_pressed()
+    # keyinput = pygame.key.get_pressed()
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
             pygame.quit()
@@ -123,9 +123,9 @@ def checkPressGA():
                 plt.show()
 
 def runHome():
-    running = True
-    snk = snakeObject.snake(display_width, display_height, size)
-    p = neat.Checkpointer.restore_checkpoint('neat-checkpoint-398')
+    # running = True
+    # snk = snakeObject.snake(display_width, display_height, size)
+    p = neat.Checkpointer.restore_checkpoint('./neat-checkpoint-398')
     p.run(home, 100)
 
 def home(genomes, config):
@@ -140,6 +140,9 @@ def home(genomes, config):
         foodList.append(fruitObject.fruit(display_width, display_height, size))
         g.fitness = 0
         ge.append(g)
+
+    pygame.mixer.music.load('./gameMusic.mp3')
+    pygame.mixer.music.play(-1)
 
     gameEvent = True
     index = 0
